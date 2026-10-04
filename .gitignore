@@ -8,3 +8,7 @@ generated-images/
 test-images/
 temp/
 *.tmp
+
+# 誤って作られた空ファイル
+
+/Generate
