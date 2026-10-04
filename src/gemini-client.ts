@@ -35,7 +35,7 @@ export interface GenerateImageResult {
 
 export class GeminiClient {
   private ai: GoogleGenAI;
-  private defaultModel = 'gemini-2.5-flash-image-preview';
+  private defaultModel = 'gemini-3.1-flash-image-preview';
 
   constructor(apiKey: string) {
     if (!apiKey) {
